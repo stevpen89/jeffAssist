@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" type="text/css" href="comparison.css">
+	<title>Comparison</title>
+</head>
+
+<!-- 
+	* The Body Tag is set up as 70vw just to help me simulate a narrow-ish page
+	      everything within this tag scales off that size. - might need to delete it later.
+
+	* The page is divided vertically into two sides.			.comparison-side	
+	* Each side has a logo tag (different css classes) 		.comparison-xxx-logo
+	* Each side has 4 image / text containers  						.comparison-image-with-text
+	* Each image / text container has an img container		.comparison-image-container
+	*** contains an img tag																.comparison-image-container img
+	* Each image / text container has a text container		.comparison-text-container
+	*** contains a p tag																	.comparison-text-container p
+	
+	* Media Query changes the flex on the main container from "row" to "column-reverse" showing our stuff first
+-->
+
+<body class="comparison-body">
+	<div class="comparison-main">
+		<div class="comparison-side">
+			<div class="comparison-manufacturer-logo">
+				<img src="ComparisonImages/manufacturerindoor.png" alt=""/>
+			</div>
+			<div class="comparison-image-with-text">				
+				<div class="comparison-image-container">
+					<img src="https://lh3.googleusercontent.com/uudcw9WE9d-l5wPTgaHC6YE1mNBb076poozfGtpyPBPYSWRjfkyPotkLRplodc91nAJeY5joC_Q4ndj_XjSzGJyqpZfs?s=400" alt=""/>
+				</div>				
+				<div class="comparison-text-container">
+					<p>File Size: 7.44 MB @ 72 DPI</p>
+				</div>
+			</div>
+			<div class="comparison-image-with-text">
+				<div class="comparison-image-container">
+					<img src="https://lh3.googleusercontent.com/fJr__p4syDnOUoq3KIdlSVNcJTHNCW7aoPUWPcDDml6ZgYX-m9sLNMfjzQ95F-VJGTU79NOAWY2pvB4YBAOOMaitiYWodg?s=400" alt=""/>
+				</div>
+				<div class="comparison-text-container">
+					<p>File Size: 68.7 MB @ 72 DPI</p>
+				</div>
+			</div>
+			<div class="comparison-image-with-text">
+				<div class="comparison-image-container">
+					<img src="https://lh3.googleusercontent.com/4LMGUl_3vIHLgtVyLTltiFhWJiudluUdrU34n2Krk95zvWIef27LSDCuHmNW7EuYWCZ93ZZ0rsVAxKx227rkEQsw7TmaEg?s=400" alt=""/>
+				</div>
+				<div class="comparison-text-container">
+					<p>File Size: 50 MB @ 72 DPI</p>
+				</div>
+			</div>
+			<div class="comparison-image-with-text">
+				<div class="comparison-image-container">
+					<img src="https://lh3.googleusercontent.com/m85zyhWFD84vZOaPXtO17dLvTLeoG-puVzYWmYL5MGVZ9-plmX5jsl2fOPyluCC3bD1B3DzTfHKKGctSWuY1CJQHlbL2?s=400" alt=""/>
+				</div>
+				<div class="comparison-text-container">
+					<p>File Size: 11.6 MB @ 72 DPI</p>
+				</div>
+			</div>
+		</div>
+		<div class="comparison-side">
+			<div class="comparison-autodriive-logo">
+				<img src="ComparisonImages/autodriiveoutdoor.png" alt=""/>
+			</div>
+			<div class="comparison-image-with-text">
+				<div class="comparison-image-container">
+					<img src="https://lh3.googleusercontent.com/Q0-O7Q4l5K1rRWdcodbNW0RvBhr_ZLdannJMeJ7gIHfdfd9fSYcvJX-SFjDdXrnds1vgPCM5fHQPuNVA92hNwAd9Zrxmvg?s=400" alt=""/>
+				</div>
+				<div class="comparison-text-container">
+					<p>File Size: 130 MB @ 300 DPI</p>
+				</div>
+			</div>
+			<div class="comparison-image-with-text">
+				<div class="comparison-image-container">
+					<img src="https://lh3.googleusercontent.com/vfT1kv9Qom9erDQQ6mpTYXxmPqPvLu0cK9VwC6408UohIc6_WZcocsztfE0aZNFb3EhA7bPVAcvBU5bgasXtNnvLXS-C?s=400" alt=""/>
+				</div>
+				<div class="comparison-text-container">
+					<p>File Size: 129 MB @ 300 DPI</p>
+				</div>
+			</div>
+			<div class="comparison-image-with-text">
+				<div class="comparison-image-container">
+					<img src="https://lh3.googleusercontent.com/GLan8ekXz9ramDy6a-fyuMf0SI8PaG8ZItA6zJZRQ8TCtFJwsAw566ea6bb7Hs1RIl6h48kkO2Ll3YENS6t-hLR2Go4EMnY?s=400" alt=""/>
+				</div>
+				<div class="comparison-text-container">
+					<p>File Size: 123 MB @ 300 DPI</p>
+				</div>
+			</div>
+			<div class="comparison-image-with-text">
+				<div class="comparison-image-container">
+					<img src="https://lh3.googleusercontent.com/kDuiaZqfMqKEsSwsxh8t8220ceKeDjnUixFowlwZBSu9vNTQVgWcrmqlF_ibS-7wCDYhdB_9F-pmGn1soGdxeUSbDlrv?s=400" alt=""/>
+				</div>
+				<div class="comparison-text-container">
+					<p>File Size: 106 MB @ 300 DPI</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
